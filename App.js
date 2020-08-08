@@ -13,7 +13,6 @@ export default class App extends React.Component {
     return <AppContainer />;
   }
 }
-
 const AppNavigator = createStackNavigator({
   ListData: {
     screen: ListData
